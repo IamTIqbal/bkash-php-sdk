@@ -44,7 +44,7 @@ A PHP SDK and Laravel package for **bKash Tokenized Checkout** (Bangladesh). Eas
 ### Composer
 
 ```
-composer require iamtiqbal/bkash-php
+composer require iamtiqbal/bkash-php-sdk
 ```
 
 ### Manual Installation

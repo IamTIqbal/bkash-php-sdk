@@ -1,0 +1,21 @@
+{
+    "name": "iamtiqbal/bkash-php-sdk",
+    "description": "Unofficial PHP SDK and Laravel package for integrating bKash payment gateway in Bangladesh.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bkash\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bkash\\BkashServiceProvider"
+            ]
+        }
+    }
+}
